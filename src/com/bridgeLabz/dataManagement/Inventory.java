@@ -3,10 +3,10 @@ package com.bridgeLabz.dataManagement;
 public class Inventory {
 
 	String name;
-	String weight;
+	int weight;
 	int pricePerKg;
 
-	public Inventory(String name, String weight, int pricePerKg) {
+	public Inventory(String name, int weight, int pricePerKg) {
 		super();
 		this.name = name;
 		this.weight = weight;
@@ -17,7 +17,7 @@ public class Inventory {
 		return name;
 	}
 
-	public String getWeight() {
+	public int getWeight() {
 		return weight;
 	}
 
@@ -29,7 +29,7 @@ public class Inventory {
 		this.name = name;
 	}
 
-	public void setWeight(String weight) {
+	public void setWeight(int weight) {
 		this.weight = weight;
 	}
 
