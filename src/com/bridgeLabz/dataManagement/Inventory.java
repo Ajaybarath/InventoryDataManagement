@@ -2,9 +2,9 @@ package com.bridgeLabz.dataManagement;
 
 public class Inventory {
 
-	String name;
-	int weight;
-	int pricePerKg;
+	private String name;
+	private int weight;
+	private int pricePerKg;
 
 	public Inventory(String name, int weight, int pricePerKg) {
 		super();
