@@ -12,12 +12,12 @@ public class InventoryFactory {
 	}
 	
 	public void addInventory(Inventory item) {
-		inventoryList.put(item.name, item);
+		inventoryList.put(item.getName(), item);
 	}
 	
 	public int getPrice(Inventory item) {
 		
-		if (inventoryList.containsKey(item.name)) {
+		if (inventoryList.containsKey(item.getName())) {
 			int price = item.getWeight() * item.getPricePerKg();
 			return price;
 		}
