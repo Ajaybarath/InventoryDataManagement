@@ -37,4 +37,10 @@ public class Inventory {
 		this.pricePerKg = pricePerKg;
 	}
 
+	@Override
+	public String toString() {
+		return "Inventory [name=" + name + ", weight=" + weight + ", pricePerKg=" + pricePerKg + "]";
+	}
+	
+
 }
